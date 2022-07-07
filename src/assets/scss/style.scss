@@ -1,0 +1,192 @@
+/*!
+ * Bootstrap v5.2.0-beta1 (https://getbootstrap.com/)
+ * Copyright 2011-2022 The Bootstrap Authors
+ * Copyright 2011-2022 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
+
+// scss-docs-start import-stack
+// Configuration
+@import "functions";
+@import "variables";
+@import "maps";
+@import "mixins";
+@import "utilities";
+
+// Layout & components
+@import "root";
+@import "reboot";
+@import "type";
+@import "images";
+@import "containers";
+@import "grid";
+@import "tables";
+@import "forms";
+@import "buttons";
+@import "transitions";
+@import "dropdown";
+@import "button-group";
+@import "nav";
+@import "navbar";
+@import "card";
+@import "accordion";
+@import "breadcrumb";
+@import "pagination";
+@import "badge";
+@import "alert";
+@import "progress";
+@import "list-group";
+@import "close";
+@import "toasts";
+@import "modal";
+@import "tooltip";
+@import "popover";
+@import "carousel";
+@import "spinners";
+@import "offcanvas";
+@import "placeholders";
+
+// Helpers
+@import "helpers";
+
+// Utilities
+@import "utilities/api";
+// scss-docs-end import-stack
+
+// font family & size
+$lexend: "Lexend",
+Helvetica,
+Verdana,
+sans-serif;
+$roboto: "Roboto",
+Helvetica,
+Verdana,
+sans-serif;
+
+// body
+body {
+    background-color: $dark;
+    font-family: $lexend;
+}
+
+// font size desktop & mobile
+$xtra-large-title-desktop: 48px;
+$large-title-desktop: 40px;
+$medium-title-desktop: 36px;
+$small-title-desktop: 24px;
+$xsmall-title-desktop: 20px;
+$large-desc-desktop: 20px;
+$medium-desc-desktop: 16px;
+$small-desc-desktop: 14px;
+$xsmall-desc-desktop: 12px;
+
+$large-title-mobile: 36px;
+$medium-title-mobile: 24px;
+$small-title-mobile: 20px;
+$xsmall-title-mobile: 18px;
+$large-desc-mobile: 18px;
+$medium-desc-mobile: 16px;
+$small-desc-mobile: 14px;
+$xsmall-desc-mobile: 12px;
+
+// font-weight
+$reguler: 300;
+$medium: 500;
+$bold: 700;
+
+// background, stroke & radius
+$large-radius: 8px;
+$medium-radius: 4px;
+$small-radius: 2px;
+
+$container-background: rgba(255, 255, 255, 0.05);
+$backdrop: blur(200px);
+$border: 1px solid rgba(255, 255, 255, 0.06);
+
+// custom color variable
+$background: $dark;
+$primary: #0668A6;
+$ocean: #0A5EAC;
+$prussian: #0273A0;
+$title-light: #BFD1DB;
+$subtitle-light: #95A9B2;
+
+
+// mixins element here! - desktop
+
+
+@mixin large-title {
+    font-weight: $bold;
+    font-size: $xtra-large-title-desktop;
+    line-height: 140%;
+    color: $title-light;
+}
+
+@mixin medium-title {
+    font-weight: $medium;
+    font-size: $medium-title-desktop;
+    line-height: 140%;
+    color: $title-light;
+}
+
+@mixin large-desc {
+    font-family: $roboto;
+    font-weight: $reguler;
+    font-size: $large-desc-desktop;
+    line-height: 160%;
+    color: $subtitle-light;
+}
+
+@mixin small-title {
+    font-weight: $medium;
+    font-size: $small-title-desktop;
+    line-height: 150%;
+    color: $title-light;
+}
+
+@mixin xsmall-title {
+    font-weight: $medium;
+    font-size: $xsmall-title-desktop;
+    line-height: 150%;
+    color: $title-light;
+}
+
+
+// mixins element here! - mobile
+
+@mixin large-title-mobile {
+    font-weight: $bold;
+    font-size: $large-title-mobile;
+    line-height: 140%;
+    color: $title-light;
+}
+
+@mixin medium-title-mobile {
+    font-weight: $medium;
+    font-size: $medium-title-mobile;
+    line-height: 140%;
+    color: $title-light;
+}
+
+@mixin large-desc-mobile {
+    font-family: $roboto;
+    font-weight: $reguler;
+    font-size: $large-desc-mobile;
+    line-height: 150%;
+    color: $subtitle-light;
+}
+
+@mixin medium-desc-mobile {
+    font-family: $roboto;
+    font-weight: $reguler;
+    font-size: $medium-desc-mobile;
+    line-height: 150%;
+    color: $subtitle-light;
+}
+
+@mixin small-title-mobile {
+    font-weight: $medium;
+    font-size: $small-title-mobile;
+    line-height: 30px;
+    color: $title-light;
+}

@@ -1,0 +1,81 @@
+@import '../../../assets/scss/style.scss';
+
+
+
+.large-title {
+    @include large-title;
+    font-size: 54px;
+    max-width: 900px;
+}
+
+.large-description {
+    @include large-desc;
+    max-width: 600px;
+    margin-top: 40px;
+}
+
+.socmed-position {
+    margin-top: 40px;
+    margin-right: 20px;
+}
+
+.header-position {
+    height: 100vh;
+    padding-top: 80px;
+}
+
+.ornament-bg {
+    position: absolute;
+}
+
+.desktop-position {
+    margin-top: -170px;
+}
+
+.mobile-position {
+    display: none;
+}
+
+
+// CSS for mobile view
+
+@media (max-width: 576px) {
+    .ornament-bg {
+        display: none !important;
+    }
+
+    .desktop-position {
+        display: none !important;
+    }
+
+    .large-title {
+        @include large-title-mobile;
+        text-align: center;
+    }
+
+    .large-description {
+        text-align: center;
+    }
+
+    .frame-cta {
+        text-align: center;
+    }
+
+    .frame-socmed {
+        justify-content: center;
+    }
+
+    .socmed-position:last-child {
+        margin-right: 0px !important;
+    }
+}
+
+
+// CSS for tablet view
+
+@media screen and (max-width: 996px) and (min-width: 577px) {
+    .header-position {
+        height: 70vh;
+        padding-top: 80px;
+    }
+}

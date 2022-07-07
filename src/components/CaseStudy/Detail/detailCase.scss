@@ -1,0 +1,236 @@
+@import '../../../assets/scss/style.scss';
+
+
+
+.bg-detail-case-study {
+    background: url('../../../assets/images/case-study-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.based-detail-case-study {
+    margin-top: 60px;
+}
+
+.main-title-case-study {
+    @include large-title;
+    margin-bottom: 100px;
+}
+
+.title-detail-case-study {
+    @include small-title;
+}
+
+.description-case-study {
+    font-family: $roboto;
+    font-weight: $reguler;
+    font-size: $large-desc-desktop;
+    line-height: 150%;
+    color: $subtitle-light;
+    max-width: 500px;
+}
+
+.description-case-study-single {
+    font-family: $roboto;
+    font-weight: $reguler;
+    font-size: $large-desc-desktop;
+    line-height: 150%;
+    color: $subtitle-light;
+    max-width: 700px;
+}
+
+.frame-image-case {
+    width: 100%;
+    height: 100%;
+}
+
+.margin-each-section {
+    margin-top: 60px;
+}
+
+.margin-each-section-result {
+    margin-top: 100px;
+}
+
+.image-detail-case {
+    width: 100%;
+    height: auto;
+    border-radius: $large-radius;
+}
+
+.bg-detail-case-study-1 {
+    background: url('../../../assets/images/case-study-bg-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.bg-solution {
+    background: $container-background;
+    border: $border;
+    border-radius: $medium-radius;
+    backdrop-filter: $backdrop;
+    padding: 56px;
+}
+
+.title-detail-solution {
+    font-weight: $medium;
+    color: $title-light;
+    font-size: $xsmall-title-desktop;
+}
+
+.description-detail-solution {
+    font-family: $roboto;
+    font-size: $medium-desc-desktop;
+    font-weight: $reguler;
+    line-height: 150%;
+    color: $subtitle-light;
+    max-width: 650px !important;
+}
+
+.margin-each-solution-detail {
+    margin-bottom: 30px;
+}
+
+.frame-persona {
+    width: 100%;
+    height: 100%;
+}
+
+.content-persona {
+    width: 100%;
+    height: auto;
+    border-radius: $large-radius;
+}
+
+.text-note {
+    font-family: $roboto;
+    line-height: 120%;
+    font-weight: $reguler;
+    font-size: $small-desc-desktop;
+    color: rgba($subtitle-light, 0.7);
+    margin-top: 20px;
+}
+
+.frame-other-case {
+    margin-top: 160px;
+    margin-bottom: 160px;
+}
+
+
+// CSS for mobile view
+
+@media (max-width: 576px) {
+
+    .layout-mobile {
+        margin-top: 20px;
+    }
+
+    .margin-each-section {
+        margin-top: 20px;
+    }
+
+    .main-title-case-study {
+        @include medium-title;
+        margin-bottom: 60px;
+    }
+
+    .title-detail-case-study {
+        @include xsmall-title;
+        margin-bottom: 10px;
+    }
+
+    .description-case-study {
+        font-size: $medium-desc-desktop;
+        line-height: 140%;
+        max-width: 500px;
+    }
+
+    .frame-image-case {
+        margin-bottom: 30px;
+    }
+
+    .description-case-study-single {
+        font-size: $medium-desc-desktop;
+        max-width: 600px;
+    }
+
+    .container-design-process {
+        margin-top: 10px;
+        margin-bottom: -32px;
+    }
+
+    .bg-solution {
+        padding: 24px;
+    }
+
+    .margin-each-solution-detail {
+        margin-bottom: 14px;
+    }
+
+    .title-detail-solution {
+        margin-bottom: 8px;
+    }
+
+    .case-study-title {
+        @include small-title;
+    }
+
+}
+
+
+// CSS for tablet view
+
+@media screen and (max-width: 996px) and (min-width: 577px) {
+
+    .layout-tablet {
+        margin-top: 40px;
+    }
+
+    .main-title-case-study {
+        @include large-title;
+        margin-bottom: 60px;
+    }
+
+    .title-detail-case-study {
+        @include xsmall-title;
+        margin-bottom: 10px;
+    }
+
+    .description-case-study {
+        font-size: $medium-desc-desktop;
+        line-height: 140%;
+        max-width: 500px;
+    }
+
+    .description-case-study-single {
+        font-size: $medium-desc-desktop;
+        max-width: 600px;
+    }
+
+    .container-design-process {
+        margin-top: 10px;
+        margin-bottom: -32px;
+    }
+
+    .bg-solution {
+        padding: 36px;
+    }
+
+    .margin-each-solution-detail {
+        margin-bottom: 14px;
+    }
+
+    .title-detail-solution {
+        margin-bottom: 8px;
+    }
+
+    .case-study-title {
+        @include small-title;
+    }
+
+}

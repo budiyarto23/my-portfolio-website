@@ -1,0 +1,14 @@
+@import '../../../assets/scss/style.scss';
+
+.based-footer {
+    background: transparent;
+    border-top: $border;
+    height: 100px;
+}
+
+.footer-title {
+    font-weight: $reguler;
+    font-size: $medium-desc-desktop;
+    line-height: 24px;
+    color: $subtitle-light;
+}

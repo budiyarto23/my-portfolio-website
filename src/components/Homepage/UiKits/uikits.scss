@@ -1,0 +1,40 @@
+@import '../../../assets/scss/style.scss';
+
+
+.based-uikits-container {
+    margin-top: 20px;
+}
+
+.uikits-bg {
+    background-image: url('../../../assets/images/ornament-blog.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 140px;
+}
+
+.uikits-title {
+    @include medium-title;
+    margin-bottom: 24px !important;
+}
+
+.uikits-expand {
+    font-weight: $medium;
+    line-height: 120%;
+    text-decoration-line: underline;
+    color: $subtitle-light;
+}
+
+// CSS for mobile 
+
+@media (max-width: 576px) {
+    .uikits-title {
+        @include medium-title-mobile;
+    }
+}
+
+
+// CSS for tablet view
+
+@media screen and (max-width: 996px) and (min-width: 577px) {
+    
+}

@@ -1,0 +1,119 @@
+@import '../../assets/scss/style.scss';
+
+
+.based-about-container {
+    margin-top: 60px;
+    margin-bottom: 140px;
+}
+
+.title-container {
+    margin-bottom: 50px;
+}
+
+.title-about {
+    @include medium-title;
+    max-width: 700px;
+    text-align: center;
+}
+
+.about-container {
+    background: $container-background;
+    border: $border;
+    border-radius: $medium-radius;
+    backdrop-filter: $backdrop;
+    padding: 48px !important;
+}
+
+.first-container {
+    min-height: 550px;
+    padding: 30px;
+    border-radius: $medium-radius;
+    border: $border;
+}
+
+.info-title {
+    font-weight: $medium;
+    font-size: $small-title-desktop;
+    line-height: 25px;
+    color: $title-light;
+    margin-bottom: 32px;
+}
+
+.info-subtitle {
+    // font-family: $roboto;
+    font-weight: $reguler;
+    font-size: $large-desc-desktop;
+    line-height: 160%;
+    color: $title-light;
+}
+
+.skill-list .skill-list-item {
+    padding-bottom: 5px;
+    font-family: $roboto;
+    font-weight: $reguler;
+    font-size: $medium-desc-desktop;
+    line-height: 160%;
+    color: $subtitle-light;
+
+}
+
+.info-description {
+    font-family: $roboto;
+    font-weight: $reguler;
+    font-size: $medium-desc-desktop;
+    line-height: 160%;
+    color: $subtitle-light;
+}
+
+.about-divider {
+    width: 2px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: $large-radius;
+}
+
+
+// CSS for mobile view
+
+@media (max-width: 576px) {
+
+    .about-container {
+        padding: 24px !important;
+    }
+
+    .title-about {
+        @include medium-title-mobile;
+    }
+
+    .title-container {
+        margin-bottom: 30px;
+    }
+
+    .first-container {
+        // min-height: 550px;
+        padding: 20px;
+        margin-bottom: 24px;
+    }
+
+    .info-title {
+        @include small-title-mobile;
+        line-height: 140%px;
+        margin-bottom: 24px;
+        margin-top: 14px;
+    }
+}
+
+
+// CSS for tablet view
+
+@media screen and (max-width: 996px) and (min-width: 577px) {
+    .first-container {
+        min-height: 350px;
+        padding: 24px;
+        margin-bottom: 24px;
+    }
+
+    .info-title {
+        line-height: 140%px;
+        margin-top: 16px;
+    }
+}
