@@ -1,0 +1,94 @@
+@import "../../../assets/scss/style.scss";
+
+.based-skill-container {
+    margin-bottom: 150px !important;
+}
+
+.skill-bg {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.02) 0%, rgba(255, 255, 255, 0) 100%);
+    // background: rgba(255, 255, 255, 0.02);
+    backdrop-filter: blur(300px);
+    padding-top: 60px;
+    margin-top: 120px;
+}
+
+.skill-title {
+    @include medium-title;
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+    padding-bottom: 14px;
+}
+
+.skill-subtitle {
+    @include large-desc;
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+}
+
+.skill-icon {
+    width: 80px;
+    height: 80px;
+}
+
+.skill-container-1 {
+    margin-top: 50px;
+    background: linear-gradient(135deg, #004585 0%, #0273A0 100%);
+    border-radius: $medium-radius;
+    padding: 30px;
+}
+
+.skill-container-2 {
+    margin-top: 50px;
+    background: linear-gradient(320.69deg, #0A5EAC 0%, #0028B6 100%);
+    border-radius: $medium-radius;
+    padding: 30px;
+}
+
+.frame-skill-icon {
+    margin-bottom: 20px;
+}
+
+.service-name {
+    @include xsmall-title;
+    margin-bottom: 20px;
+}
+
+.delieverables-name {
+    @include large-desc-mobile;
+    margin-bottom: 16px;
+    color: $title-light;
+}
+
+.deliverables-item {
+    @include medium-desc-mobile;
+    margin-bottom: 12px;
+    color: $title-light;
+}
+
+// CSS for mobile 
+
+@media (max-width: 576px) {
+
+    .skill-bg {
+        background: $container-background;
+        backdrop-filter: blur(300px);
+        padding-top: 50px;
+        padding-bottom: 60px;
+        margin-top: 100px;
+    }
+
+    .skill-title {
+        @include medium-title-mobile;
+    }
+
+    .skill-container-2 {
+        margin-top: 30px;
+    }
+}
+
+
+// CSS for tablet view
+
+@media screen and (max-width: 996px) and (min-width: 577px) {}

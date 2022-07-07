@@ -33,7 +33,7 @@
     width: 100%;
   }
 
-  &:hover {    
+  &:hover {
     transition: transform 0.5s;
     transform: translateY(-4px);
   }
@@ -95,12 +95,13 @@
 
 @media screen and (max-width: 900px) and (min-width: 577px) {
   .kits-product {
-    height: 340px !important;
+    height: 350px !important;
   }
 
   .kits-title-product {
     font-size: $xsmall-title-desktop !important;
-    line-height: 170% !important;
+    font-weight: $reguler;
+    line-height: 150% !important;
   }
 
   .embed-responsive .kits-img-top {
@@ -110,4 +111,3 @@
     // border-radius: $medium-radius $medium-radius 0 0 !important;
   }
 }
-

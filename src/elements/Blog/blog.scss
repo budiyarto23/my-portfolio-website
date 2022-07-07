@@ -22,7 +22,7 @@
   backdrop-filter: $backdrop;
   border-radius: $medium-radius;
   transition: transform 0.4s !important;
-  height: 420px;
+  height: 440px;
   border: $border;
 
   .card-item-product {
@@ -65,8 +65,7 @@
 
 @media (max-width: 576px) {
   .card-product {
-    height: auto !important;
-    // width: 85% !important;
+    height: 450px !important;
     width: 100% !important;
     transition: transform 0.4s !important;
 
@@ -109,7 +108,7 @@
 
 @media screen and (max-width: 900px) and (min-width: 577px) {
   .card-product {
-    height: 436px !important;
+    height: 440px !important;
     transition: transform 0.4s !important;
 
     &:hover {
