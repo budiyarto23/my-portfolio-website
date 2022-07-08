@@ -4,8 +4,17 @@
 
 .large-title {
     @include large-title;
+    font-weight: $medium;
     font-size: 54px;
     max-width: 900px;
+}
+
+.span-font {
+    font-weight: $bold;
+    background: linear-gradient(126.63deg, #0A5EAC 8.47%, #0273A0 34.52%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 .large-description {

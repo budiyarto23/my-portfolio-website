@@ -1,0 +1,75 @@
+@import "../../../assets/scss/style.scss";
+
+.about-me-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    background: linear-gradient(135deg, #0A5EAC 0%, #0273A0 100%);
+    border-radius: $medium-radius;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 120px;
+    padding-right: 120px;
+    margin-bottom: 140px;
+}
+
+.about-me-title {
+    @include small-title;
+    max-width: 700px;
+}
+
+.btn-light-custom {
+    font-weight: 500 !important;
+    color: $primary !important;
+}
+
+
+// CSS for mobile view
+
+@media (max-width: 576px) {
+    .about-me-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 24px;
+        padding-right: 24px;
+        margin-bottom: 110px;
+    }
+
+    .about-me-title {
+        @include small-title-mobile;
+        text-align: center;
+        margin-bottom: 24px;
+    }
+}
+
+
+// CSS for tablet view
+
+@media screen and (max-width: 996px) and (min-width: 577px) {
+    .about-me-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 80px;
+        padding-right: 80px;
+        margin-bottom: 140px;
+    }
+
+    .about-me-title {
+        @include small-title;
+        max-width: 700px;
+        text-align: center;
+        margin-bottom: 24px;
+    }
+}
