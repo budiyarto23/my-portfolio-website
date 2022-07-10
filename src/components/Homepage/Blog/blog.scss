@@ -45,6 +45,10 @@
         padding-top: 6px;
     }
 
+    .height-responsive {
+        height: 450px !important;
+    }
+
     .blog-title {
         @include medium-title-mobile;
     }

@@ -14,7 +14,7 @@ export default function Blog(props) {
         rel="noreferrer"
         style={{ textDecoration: "none" }}
       >
-        <div className="card-product">
+        <div className={`card-product ${props.class}`}>
           <div className="card-item-product">
             <div className="embed-responsive">
               <img
@@ -52,4 +52,5 @@ Blog.propTypes = {
   url: propTypes.string,
   id: propTypes.string,
   className: propTypes.string,
+  class: propTypes.string,
 };

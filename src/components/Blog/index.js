@@ -31,7 +31,7 @@ export default function Blog() {
                 return (
                   <BlogCard
                     url={item.url}
-                    className={"mobile-card"}
+                    className={"mobile-card-normal"}
                     thumbnailImage={item.thumbnail}
                     productName={item.title}
                     productDescription={item.description}

@@ -27,6 +27,7 @@ export default function Blog(props) {
                 <BlogCard
                   url={item.url}
                   className={"mobile-card"}
+                  class={"height-responsive"}
                   thumbnailImage={item.thumbnail}
                   productName={item.title}
                   productDescription={item.description}
