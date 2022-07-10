@@ -1,0 +1,15 @@
+@import "../../../assets/scss/style.scss";
+
+.comsoon-bg {
+    background: $background;
+}
+
+.stay-tuned-text {
+    @include medium-title;
+    font-weight: $bold;
+    background: linear-gradient(126.63deg, #0A5EAC 8.47%, #0273A0 34.52%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-align: center;
+}

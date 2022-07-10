@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+
 import './blog.scss';
 
 import Navbar from 'components/Homepage/Navbar';
@@ -8,6 +9,12 @@ import Card from 'elements/Blog';
 import Dummy from 'assets/images/dummy-img-2.png';
 
 export default function Blog() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  
   return (
     <div className='container-fluid p-0'>
       <header className='case-study-bg'>
@@ -17,10 +24,7 @@ export default function Blog() {
           <div className='col-sm-12 col-md-12 col-lg-12 col-xl-12'>
             <div className='title-sub-container'>
               <p className='title-case-study'>Blog</p>
-              <p className='subtitle-case-study'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-                rutrum sed purus nec dapibus.{' '}
-              </p>
+              <p className='subtitle-case-study'>I have crafted a story about product design on a simple blog.</p>
             </div>
             <div className='row'>
               <Card

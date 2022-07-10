@@ -1,83 +1,90 @@
-import React from 'react';
-import './about.scss';
+import React, { useEffect } from "react";
 
-import Navbar from 'components/Homepage/Navbar';
-import Footer from 'components/Homepage/Footer';
+import "./about.scss";
+
+import Navbar from "components/Homepage/Navbar";
+import Footer from "components/Homepage/Footer";
 
 export default function Blog() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
-    <div className='container-fluid p-0'>
-      <header className='case-study-bg'>
+    <div className="container-fluid p-0">
+      <header className="case-study-bg">
         <Navbar />
 
-        <div className='container based-about-container'>
-          <div className='title-container d-flex flex-row justify-content-center'>
-            <p className='title-about'>
-              Budiyarto is a product designer who loves to tell a good story
+        <div className="container based-about-container">
+          <div className="title-container d-flex flex-row justify-content-center">
+            <p className="title-about">
+              Hi, I'm Budiyarto, a passionate Product Designer who loves to
+              provide solutions to user experience problems
             </p>
           </div>
-          <div className='container about-container'>
-            <div className='row'>
-              <div className='col-sm-12 col-md-12 col-lg-4 col-xl-4'>
-                <div className='first-container'>
-                  <p className='info-title'>Ahmad Budiyarto</p>
-                  <p className='info-description'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Morbi et nibh neque. Donec et diam ut risus imperdiet
-                    lobortis nec congue felis. Fusce placerat tempor mauris sed
-                    semper. Nunc nec turpis lacus. Maecenas pharetra pretium
-                    quam, nec molestie diam rutrum eget. Mauris facilisis
-                    egestas facilisis. Duis at sapien at tellus hendrerit
-                    consequat sit amet sed ex. <br />
-                    <br /> Vestibulum ex enim, gravida eleifend ipsum sit amet,
-                    lacinia hendrerit mauris. Nunc eu mauris aliquam, malesuada
-                    nisi ac, pulvinar leo. Maecenas nibh mauris, auctor id
-                    imperdiet.
+          <div className="container about-container">
+            <div className="row">
+              <div className="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                <div className="first-container">
+                  <p className="info-title">About me</p>
+                  <p className="info-description">
+                    I am dedicated to assisting companies in creating the best
+                    solutions for their digital products with a design thinking
+                    approach. <br />
+                    <br /> I have spent the last 4 years working in various
+                    areas of digital design, from Front-end Development, UI
+                    Design, UX/UI Design, UX/UI design facilitator, and Product
+                    Design. <br />
+                    <br /> Currently, my role is UX/UI design facilitator at
+                    Binar Academy. These days my time is spent facilitating
+                    students, researching, designing, writing UX/UI articles,
+                    and coding. I also help designers start their careers.
                   </p>
                 </div>
               </div>
-              <div className='col-sm-12 col-md-12 col-lg-4 col-xl-4'>
-                <div className='first-container'>
-                  <p className='info-title'>Digital Capabilities</p>
-                  <p className='info-subtitle'>Digital Design</p>
-                  <ul className='skill-list'>
-                    <li className='skill-list-item'>UX Research</li>
-                    <li className='skill-list-item'>UI Design</li>
-                    <li className='skill-list-item'>Interaction Design</li>
-                    <li className='skill-list-item'>
+              <div className="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                <div className="first-container">
+                  <p className="info-title">Digital Capabilities</p>
+                  <p className="info-subtitle">Digital Design</p>
+                  <ul className="skill-list">
+                    <li className="skill-list-item">UX Research</li>
+                    <li className="skill-list-item">UI Design</li>
+                    <li className="skill-list-item">Interaction Design</li>
+                    <li className="skill-list-item">
                       Persuasive Design Strategy
                     </li>
-                    <li className='skill-list-item'>Testing</li>
+                    <li className="skill-list-item">Testing</li>
                   </ul>
-                  <p className='info-subtitle'>Digital Design</p>
-                  <ul className='skill-list'>
-                    <li className='skill-list-item'>UX Research</li>
-                    <li className='skill-list-item'>UI Design</li>
-                    <li className='skill-list-item'>Interaction Design</li>
-                    <li className='skill-list-item'>
-                      Persuasive Design Strategy
-                    </li>
-                    <li className='skill-list-item'>Testing</li>
+                  <p className="info-subtitle">Web Development</p>
+                  <ul className="skill-list">
+                    <li className="skill-list-item">JavaScript</li>
+                    <li className="skill-list-item">TypeScript</li>
+                    <li className="skill-list-item">ReactJS</li>
+                    <li className="skill-list-item">CSS</li>
+                    <li className="skill-list-item">HTML</li>
                   </ul>
                 </div>
-                {/* <div className='about-divider'></div> */}
               </div>
-              <div className='col-sm-12 col-md-12 col-lg-4 col-xl-4'>
-                <div className='first-container'>
-                  <p className='info-title'>Contact</p>
-                  <p className='info-subtitle'>Contact me on</p>
-                  <ul className='skill-list'>
-                    <li className='skill-list-item'>ahmadbudiyarto@gmail.com</li>
-                    <li className='skill-list-item'>LinkedIn</li>
-                    <li className='skill-list-item'>Upwork</li>
+              <div className="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                <div className="first-container">
+                  <p className="info-title">Contact</p>
+                  <p className="info-subtitle">Contact me on</p>
+                  <ul className="skill-list">
+                    <li className="skill-list-item">
+                      ahmadbudiyarto@gmail.com
+                    </li>
+                    <li className="skill-list-item">LinkedIn</li>
+                    <li className="skill-list-item">Upwork</li>
                   </ul>
-                  <p className='info-subtitle'>Experience</p>
-                  <ul className='skill-list'>
-                    <li className='skill-list-item'>Product Designer</li>
-                    <li className='skill-list-item'>Interaction Designer</li>
-                    <li className='skill-list-item'>Frontend Developer</li>
+                  <p className="info-subtitle">Experience</p>
+                  <ul className="skill-list">
+                    <li className="skill-list-item">Product Designer</li>
+                    <li className="skill-list-item">UX/UI Facilitator</li>
+                    <li className="skill-list-item">Frontend Developer</li>
                   </ul>
-                  <a className='download-link' href='httpd' >Download Resume</a>
+                  <a className="download-link" href="httpd">
+                    Download Resume
+                  </a>
                 </div>
               </div>
             </div>

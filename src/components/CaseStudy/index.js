@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect } from "react";
+
 import "./caseStudy.scss";
 
 import Navbar from "components/Homepage/Navbar";
@@ -8,6 +9,12 @@ import Footer from "components/Homepage/Footer";
 import data from "Json/homePage.json";
 
 export default function CaseStudy() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  
   return (
     <div className="container-fluid p-0">
       <header className="case-study-bg">
@@ -17,10 +24,7 @@ export default function CaseStudy() {
           <div className="col-sm-12 col-md-12 col-lg-12 col-xl-12">
             <div className="title-sub-container">
               <p className="title-case-study">Case Study</p>
-              <p className="subtitle-case-study">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-                rutrum sed purus nec dapibus.
-              </p>
+              <p className="subtitle-case-study">See the details of the process I did to solve user problems and design the product.</p>
             </div>
             {data.caseStudy.map((item, index) => {
               return (

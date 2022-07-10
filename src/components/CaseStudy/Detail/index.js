@@ -1,25 +1,38 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
+
 import "./detailCase.scss";
 
-import Navbar from "../../Homepage/Navbar";
+import Case from "../../Homepage/Case";
 import Button from "elements/Button";
 
 import Dummy1 from "assets/images/detail-case-1.png";
 import Persona from "assets/images/user-persona.png";
 import Sitemap from "assets/images/sitemap.png";
 
-import data from "Json/homePage.json";
 
 export default function DetailCaseStudy() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  const goBack = useNavigate();
+  const goToBack = () => goBack(-1);
+
   return (
     <div className="container-fluid p-0">
       <header className="bg-detail-case-study">
-        <Navbar />
-
         <div className="container based-detail-case-study">
+          <div className="frame-btn-back">
+            <Button className="btn btn-outline-light btn-back" onClick={goToBack}>
+              Back
+            </Button>
+          </div>
           <div className="row">
             <div className="col-sm-12 col-md-12 col-lg-12 col-xl-12">
-              <p className="main-title-case-study">This is case study title</p>
+              <p className="main-title-case-study">
+                Microsite Diving Indonesia
+              </p>
             </div>
 
             <div className="col-sm-12 col-md-6 col-lg-4 col-xl-4 layout-mobile">
@@ -354,47 +367,10 @@ export default function DetailCaseStudy() {
                     Indonesia.
                   </div>
                 </div>
-
-                <div className="container frame-other-case">
-                  <p className="case-study-title">Other Case Study</p>
-                  <div className="row">
-                    {data.caseStudy.map((item, index) => {
-                      return (
-                        <div
-                          className="col-sm-12 col-md-12 col-lg-6 col-xl-6"
-                          key={index}
-                        >
-                          <div className="card img-fluid main-card-bg-1">
-                            <img
-                              className="card-img-top img-for-home"
-                              src={item.thumbnail}
-                              alt="ruei"
-                            />
-                            <div className="card-img-overlay overlay-for-home d-flex flex-column justify-content-center">
-                              <h4 className="case-title mx-auto">
-                                {item.title}
-                              </h4>
-                              <p className="case-subtitle mx-auto">
-                                {item.description}
-                              </p>
-                              <div className="mx-auto">
-                                <Button
-                                  type="button"
-                                  className="btn btn-outline-light btn-outline-custom"
-                                  onClick={"/detail-case-study"}
-                                  style={{ paddingLeft: 20, paddingRight: 20 }}
-                                >
-                                  See Detail
-                                </Button>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      );
-                    })}
-                  </div>
-                </div>
               </div>
+            </div>
+            <div className="container-fluid bg-other-case">
+              <Case />
             </div>
           </header>
         </div>

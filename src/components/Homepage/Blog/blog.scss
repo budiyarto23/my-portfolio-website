@@ -18,12 +18,19 @@
 
 .blog-title {
     @include medium-title;
+    margin-bottom: 10px;
+}
+
+.blog-subtitle {
+    @include large-desc;
+    color: $title-light;
+    // margin-bottom: 30px;
 }
 
 .blog-expand {
     font-weight: $reguler;
     line-height: 120%;
-    text-decoration-line: none;
+    text-decoration-line: underline;
     color: $subtitle-light;
     align-self: center !important;
 }
@@ -31,10 +38,6 @@
 // CSS for mobile view
 
 @media (max-width: 576px) {
-
-    .row .row-desktop {
-        display: none !important;
-    }
 
     .mobile-card {
         width: 85% !important;
@@ -44,6 +47,13 @@
 
     .blog-title {
         @include medium-title-mobile;
+    }
+
+    .blog-subtitle {
+        @include large-desc-mobile;
+        color: $title-light;
+        // margin-bottom: 24px;
+        max-width: 240px;
     }
 
     .responsive-card {

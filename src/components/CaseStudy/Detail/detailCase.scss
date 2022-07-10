@@ -10,8 +10,23 @@
     width: 100%;
 }
 
+.frame-btn-back {
+    // position: fixed;
+    // top: 50px !important;
+    // left: 120px !important;
+    padding-bottom: 60px;
+    z-index: 99;
+}
+
+.btn-back {
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+    border-radius: 40px !important;
+    border: 1px solid rgba(234, 234, 234, 0.3) !important;
+}
+
 .based-detail-case-study {
-    margin-top: 60px;
+    padding-top: 60px;
 }
 
 .main-title-case-study {
@@ -47,11 +62,20 @@
 }
 
 .margin-each-section {
-    margin-top: 60px;
+    margin-top: 60px !important;
 }
 
 .margin-each-section-result {
-    margin-top: 100px;
+    margin-top: 100px !important;
+    margin-bottom: 100px !important;
+}
+
+.bg-other-case {
+    padding-top: 50px !important;
+    padding-bottom: -30px !important;
+    background: $container-background;
+    backdrop-filter: $backdrop;
+    border: $border;
 }
 
 .image-detail-case {

@@ -14,7 +14,13 @@
 
 .uikits-title {
     @include medium-title;
-    margin-bottom: 24px !important;
+    margin-bottom: 10px !important;
+}
+
+.uikits-subtitle {
+    @include large-desc-mobile;
+    color: $title-light;
+    margin-bottom: 28px;
 }
 
 .uikits-expand {
@@ -30,11 +36,15 @@
     .uikits-title {
         @include medium-title-mobile;
     }
+
+    .uikits-subtitle {
+        @include large-desc-mobile;
+        color: $title-light;
+        margin-bottom: 24px;
+    }
 }
 
 
 // CSS for tablet view
 
-@media screen and (max-width: 996px) and (min-width: 577px) {
-    
-}
+@media screen and (max-width: 996px) and (min-width: 577px) {}

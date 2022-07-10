@@ -1,12 +1,11 @@
 @import '../../../assets/scss/style.scss';
 
 
-.based-case-container {
-    margin-top: 140px;
-}
+// .based-case-container {
+//     margin-top: 140px;
+// }
 
 .case-bg {
-    // background-image: url('../../../assets/images/ornament-case-study.png');
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 100px;
@@ -14,6 +13,12 @@
 
 .case-study-title {
     @include medium-title;
+    margin-bottom: 10px;
+}
+
+.case-study-subtitle {
+    @include large-desc;
+    color: $title-light;
     margin-bottom: 30px;
 }
 
@@ -58,7 +63,7 @@ div.card-img-overlay.overlay-for-home {
     font-family: $roboto;
     font-weight: $reguler;
     font-size: $medium-desc-desktop;
-    line-height: 140%;
+    line-height: 150%;
     text-align: center;
     color: $title-light;
     max-width: 400px;
@@ -68,6 +73,13 @@ div.card-img-overlay.overlay-for-home {
     border: 2px solid $title-light !important;
     margin-top: 20px;
 }
+
+// .btn.btn-outline-light.btn-outline-custom:hover {
+//     background-color: $title-light;
+//     border: 1px solid $title-light !important;
+//     font-weight: $medium;
+//     transition: ease .5;
+// }
 
 // CSS for mobile view
 
@@ -88,7 +100,13 @@ div.card-img-overlay.overlay-for-home {
 
     .case-study-title {
         @include medium-title-mobile;
-        margin-bottom: 30px;
+        // margin-bottom: 10px;
+    }
+
+    .case-study-subtitle {
+        @include large-desc-mobile;
+        color: $title-light;
+        margin-bottom: 24px;
     }
 
     .case-title {

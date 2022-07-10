@@ -9,6 +9,7 @@ export default function UiKits(props) {
       <header className="uikits-bg">
         <div className="container">
           <p className="uikits-title">UI Kits</p>
+          <p className="uikits-subtitle">Download a collection of free UI Kits for your personal use.</p>
           <div className="col-sm-12 col-md-12 col-lg-12 col-xl-12">
             <div className="row responsive-card">
               {props.data.map((item, index) => {
