@@ -1,6 +1,5 @@
 import React from 'react';
 import propTypes from 'prop-types';
-import { Link } from 'react-router-dom';
 import './kits.scss';
 
 export default function UiKits(props) {
@@ -8,7 +7,7 @@ export default function UiKits(props) {
 
   return (
     <div className={`col-sm-12 col-md-6 col-lg-4 col-xl-4 ${props.className}`}>
-      <Link to={props.id} style={{ textDecoration: "none" }}>
+      <a href={props.url} target="_blank" rel="noreferrer" style={{ textDecoration: "none" }}>
         <div className='kits-product'>
           <div className='kits-item-product'>
             <div className='embed-responsive'>
@@ -27,7 +26,7 @@ export default function UiKits(props) {
             </div>
           </div>
         </div>
-      </Link>
+      </a>
     </div>
   );
 }
@@ -35,7 +34,7 @@ export default function UiKits(props) {
 UiKits.propTypes = {
   thumbnailImage: propTypes.string,
   productName: propTypes.string,
-  link: propTypes.string,
   id: propTypes.string,
+  url: propTypes.string,
   className: propTypes.string
 };

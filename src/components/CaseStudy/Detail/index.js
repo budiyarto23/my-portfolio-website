@@ -6,7 +6,7 @@ import "./detailCase.scss";
 import Case from "../../Homepage/Case";
 import Button from "elements/Button";
 
-import Dummy1 from "assets/images/detail-case-1.png";
+import AboutProject from "assets/images/about-project.png";
 import Persona from "assets/images/user-persona.png";
 import Sitemap from "assets/images/sitemap.png";
 
@@ -72,7 +72,7 @@ export default function DetailCaseStudy() {
             </div>
             <div className="col-sm-12 col-md-6 col-lg-6 col-xl-6 margin-each-section">
               <div className="frame-image-case">
-                <img className="image-detail-case" src={Dummy1} alt="trd" />
+                <img className="image-detail-case" src={AboutProject} alt="trd" />
               </div>
             </div>
 
@@ -206,9 +206,9 @@ export default function DetailCaseStudy() {
                           alt="persona"
                         />
                       </div>
-                      <p className="text-note">
+                      {/* <p className="text-note">
                         Click the image to see the detail!
-                      </p>
+                      </p> */}
                     </div>
                   </div>
                 </div>
@@ -273,9 +273,9 @@ export default function DetailCaseStudy() {
                           alt="persona"
                         />
                       </div>
-                      <p className="text-note">
+                      {/* <p className="text-note">
                         Click the image to see the detail!
-                      </p>
+                      </p> */}
                     </div>
                   </div>
                 </div>
@@ -308,9 +308,9 @@ export default function DetailCaseStudy() {
                           alt="persona"
                         />
                       </div>
-                      <p className="text-note">
+                      {/* <p className="text-note">
                         Click the image to see the detail!
-                      </p>
+                      </p> */}
                     </div>
                     <div className="d-flex flex-column">
                       <p className="title-detail-solution">
@@ -327,9 +327,9 @@ export default function DetailCaseStudy() {
                           alt="persona"
                         />
                       </div>
-                      <p className="text-note">
+                      {/* <p className="text-note">
                         Click the image to see the detail!
-                      </p>
+                      </p> */}
                     </div>
                   </div>
                 </div>

@@ -1,7 +1,7 @@
 @import '../../assets/scss/style.scss';
 
 .case-study-bg {
-    background-image: url('../../assets/images/ornament-header.png');
+    background-image: url('../../assets/images/ornament-header-1.png');
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -27,7 +27,7 @@ img.card-img-top {
 }
 
 div.card-img-overlay {
-    background: rgba(0, 0, 0, .5) !important;
+    background: rgba(0, 0, 0, .7) !important;
     border: $border !important;
     padding: 0px !important;
     border-radius: $medium-radius !important;
@@ -43,7 +43,7 @@ div.card-img-overlay {
 
 .subtitle-case-study {
     @include large-desc;
-    color: $title-light;
+    color: $title-light !important;
 }
 
 .title-case {
@@ -103,7 +103,7 @@ div.card-img-overlay {
 @media screen and (max-width: 996px) and (min-width: 577px) {
 
     .case-study-bg {
-        background-image: url('../../assets/images/ornament-header-half.png');
+        background-image: url('../../assets/images/ornament-header-1.png');
     }
 
     .main-card-bg {

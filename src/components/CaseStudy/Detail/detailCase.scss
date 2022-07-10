@@ -3,7 +3,7 @@
 
 
 .bg-detail-case-study {
-    background: url('../../../assets/images/case-study-bg.png');
+    background: url('../../../assets/images/case-study-main-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -81,14 +81,14 @@
 .image-detail-case {
     width: 100%;
     height: auto;
-    border-radius: $large-radius;
+    border-radius: $medium-radius;
 }
 
 .bg-detail-case-study-1 {
-    background: url('../../../assets/images/case-study-bg-1.png');
+    background: url('../../../assets/images/solution-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 70vh;
+    height: 100vh;
     width: 100%;
     margin-top: 100px;
 }
@@ -151,11 +151,15 @@
 @media (max-width: 576px) {
 
     .layout-mobile {
-        margin-top: 20px;
+        margin-top: 20px !important;
     }
 
     .margin-each-section {
-        margin-top: 20px;
+        margin-top: 20px !important;
+    }
+
+    .bg-other-case {
+        padding-top: 0px !important;
     }
 
     .main-title-case-study {
@@ -185,7 +189,7 @@
 
     .container-design-process {
         margin-top: 10px;
-        margin-bottom: -32px;
+        margin-bottom: -16px;
     }
 
     .bg-solution {

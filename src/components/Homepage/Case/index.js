@@ -5,7 +5,7 @@ import "./case.scss";
 
 import Button from "elements/Button";
 
-import CaseImg from "assets/images/detail-case-1.png";
+import CaseImg from "assets/images/about-project.png";
 
 export default function Case() {
   const navigate = useNavigate();

@@ -1,9 +1,10 @@
 import React from "react";
-import "./navbar.scss";
 import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 
-import Logo from "assets/images/nav-logo.svg";
+import "./navbar.scss";
+
+import Logo from "assets/icons/nav-logo.svg";
 
 export default function Header() {
   const location = useLocation();

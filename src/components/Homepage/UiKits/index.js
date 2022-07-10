@@ -15,6 +15,7 @@ export default function UiKits(props) {
               {props.data.map((item, index) => {
                 return (
                   <Kits
+                    url={item.url}
                     className={"mobile-card"}
                     thumbnailImage={item.thumbnail}
                     productName={item.title}

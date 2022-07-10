@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 import "./caseStudy.scss";
 
@@ -6,15 +7,15 @@ import Navbar from "components/Homepage/Navbar";
 import Button from "elements/Button";
 import Footer from "components/Homepage/Footer";
 
-import data from "Json/homePage.json";
+import CaseThumbnail from "assets/images/about-project.png";
 
 export default function CaseStudy() {
-
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
-  
+  const navigate = useNavigate();
+
   return (
     <div className="container-fluid p-0">
       <header className="case-study-bg">
@@ -24,29 +25,54 @@ export default function CaseStudy() {
           <div className="col-sm-12 col-md-12 col-lg-12 col-xl-12">
             <div className="title-sub-container">
               <p className="title-case-study">Case Study</p>
-              <p className="subtitle-case-study">See the details of the process I did to solve user problems and design the product.</p>
+              <p className="subtitle-case-study">
+                See the details of the process I did to solve user problems and
+                design the product.
+              </p>
             </div>
-            {data.caseStudy.map((item, index) => {
-              return (
-                <div class="card img-fluid main-card-bg" key={index}>
-                  <img class="card-img-top" src={item.thumbnail} alt="ruei" />
-                  <div class="card-img-overlay d-flex flex-column justify-content-center">
-                    <h4 class="title-case mx-auto">{item.title}</h4>
-                    <p class="subtitle-case mx-auto">{item.description}</p>
-                    <div className="mx-auto">
-                      <Button
-                        type="button"
-                        className="btn btn-outline-light btn-outline-custom"
-                        onClick={"/detail-case-study"}
-                        style={{ paddingLeft: 20, paddingRight: 20 }}
-                      >
-                        See Detail
-                      </Button>
-                    </div>
-                  </div>
+
+            <div className="card img-fluid main-card-bg">
+              <img className="card-img-top" src={CaseThumbnail} alt="ruei" />
+              <div className="card-img-overlay d-flex flex-column justify-content-center">
+                <h4 className="title-case mx-auto">Microsite Diving Indonesia</h4>
+                <p className="subtitle-case mx-auto">
+                  Diving Indonesia is a part of Kemenparekraf to promote and
+                  increase diving tourism in Indonesia.
+                </p>
+                <div className="mx-auto">
+                  <Button
+                    type="button"
+                    className="btn btn-outline-light btn-outline-custom"
+                    onClick={ () => navigate('/detail-case-study') }
+                    style={{ paddingLeft: 20, paddingRight: 20 }}
+                  >
+                    See detail
+                  </Button>
                 </div>
-              );
-            })}
+              </div>
+            </div>
+
+            <div className="card img-fluid main-card-bg">
+              <img className="card-img-top" src={CaseThumbnail} alt="ruei" />
+              <div className="card-img-overlay d-flex flex-column justify-content-center">
+                <h4 className="title-case mx-auto">Online Registration System</h4>
+                <p className="subtitle-case mx-auto">
+                  The online registration system was built to manage the
+                  registration and selection process for foreign exchange
+                  students.
+                </p>
+                <div className="mx-auto">
+                  <Button
+                    type="button"
+                    className="btn btn-outline-light btn-outline-custom"
+                    onClick={ () => navigate('/coming-case-study') }
+                    style={{ paddingLeft: 20, paddingRight: 20 }}
+                  >
+                    See detail
+                  </Button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 

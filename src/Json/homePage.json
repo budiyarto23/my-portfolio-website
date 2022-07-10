@@ -17,72 +17,78 @@
   "blog": [
     {
       "_id": "0001",
-      "title": "Diving Indonesia Microsite - Wonderful Indonesia Pasti Kerjen",
-      "description": "Diving Indonesia is a part of Kemenparekraf to promote and increase diving tourism in Indonesia.",
-      "thumbnail": "images/dummy-img-1.png"
+      "title": "Peran UX Dibalik Flash Sale Marketplace",
+      "description": "Untuk mengembangkan fitur flash sale marketplace menerapkan scarcity, yaitu konsep ekonomi yang berupa kelangkaan",
+      "thumbnail": "images/flash-sale.png",
+      "url": "https://medium.com/@abudiyarto/inilah-peran-ux-dibalik-flash-sale-marketplace-a9e0c646e8cd"
     },
     {
       "_id": "0002",
-      "title": "Diving Indonesia Microsite",
-      "description": "Diving Indonesia is a part of Kemenparekraf to promote and increase diving tourism in Indonesia.",
-      "thumbnail": "images/dummy-img-1.png"
+      "title": "UX Design itu Memberi User Kebebasan! Ini Buktinya",
+      "description": "Dalam UI/UX kebebasan tersebut dikenal dengan istilah “User control & freedom”, yaitu memberikan kontrol dan kebebasan penuh kepada user",
+      "thumbnail": "images/user-freedom.png",
+      "url": "https://medium.com/@abudiyarto/ux-design-itu-memberi-user-kebebasan-ini-buktinya-90f14e9dae15"
     },
     {
       "_id": "0003",
-      "title": "Diving Indonesia Microsite",
-      "description": "Diving Indonesia is a part of Kemenparekraf to promote and increase diving tourism in Indonesia.",
-      "thumbnail": "images/dummy-img-1.png"
+      "title": "Peran UX Design Dibalik Voucher Gift Card",
+      "description": "Oke, berikut pembahasan singkatnya. Jadi untuk memaksimalkan profit dari gift card, salah satunya bisa memanfaatkan adalah breakage",
+      "thumbnail": "images/breakage.png",
+      "url": "https://medium.com/@abudiyarto/peran-ux-design-dibalik-voucher-gift-card-39247bf62c27"
     },
     {
       "_id": "0004",
-      "title": "Diving Indonesia Microsite",
-      "description": "Diving Indonesia is a part of Kemenparekraf to promote and increase diving tourism in Indonesia.",
-      "thumbnail": "images/dummy-img-1.png"
+      "title": "Alasan Kamu Betah Scroll TikTok Berjam-jam",
+      "description": "Dalam sehari rata-rata user menghabiskan waktu sekitar 89 menit untuk melihat video “random” di TikTok",
+      "thumbnail": "images/reinforcement.png",
+      "url": "https://medium.com/@abudiyarto/featuredalasan-kamu-betah-scroll-tiktok-berjam-jam-c32ea5d0e19"
     },
     {
       "_id": "0005",
-      "title": "Diving Indonesia Microsite",
-      "description": "Diving Indonesia is a part of Kemenparekraf to promote and increase diving tourism in Indonesia.",
-      "thumbnail": "images/dummy-img-1.png"
+      "title": "Hebatnya Peran UX Dalam Platform Binary Option",
+      "description": "Tahukan kamu ternyata ada peran UX yang siginifikan lho untuk membuat calon user binary option melakukan trading",
+      "thumbnail": "images/dunning-kruger.png",
+      "url": "https://medium.com/@abudiyarto/hebatnya-peran-ux-dalam-platform-binary-option-af3a65c4b1a6"
     },
     {
       "_id": "0006",
-      "title": "Diving Indonesia Microsite",
-      "description": "Diving Indonesia is a part of Kemenparekraf to promote and increase diving tourism in Indonesia.",
-      "thumbnail": "images/dummy-img-1.png"
+      "title": "Mari Kita Bedah Akun Instagram Verified dari Sisi UX",
+      "description": "Jadi Instagram memanfaatkan fenomena self-esteem dalam bentuk akun verified untuk mengakui/menghargai status user. Harapannya dengan",
+      "thumbnail": "images/self-esteem.png",
+      "url": "https://medium.com/@abudiyarto/mari-kita-bedah-akun-instagram-verified-dari-sisi-ux-1efb1bdadb1f"
     }
   ],
 
   "uikits": [
     {
       "_id": "0001",
-      "title": "UI Kits title will be here and there is now description but it's ok! title long version will be display in 3 lines",
-      "thumbnail": "images/dummy-img-1.png"
+      "title": "Sounds Effect Library - Responsive Landing Page",
+      "thumbnail": "images/wavesco.png",
+      "url": "https://www.figma.com/community/file/1088736600271850607"
     },
     {
       "_id": "0002",
-      "title": "UI Kits title will be here and there is now description but it's ok!",
-      "thumbnail": "images/dummy-img-1.png"
+      "title": "Cryptocurrency Landing Page - Dark Mode",
+      "thumbnail": "images/crypto-dark.png",
+      "url": "https://www.figma.com/community/file/1047142300578798855"
     },
     {
       "_id": "0003",
-      "title": "UI Kits title will be here and there is now description but it's ok!",
-      "thumbnail": "images/dummy-img-1.png"
+      "title": "Cryptocurrency Landing Page - Light Mode",
+      "thumbnail": "images/crypto-light.png",
+      "url": "https://www.figma.com/community/file/1058352205953655619"
     },
     {
       "_id": "0004",
-      "title": "UI Kits title will be here and there is now description but it's ok!",
-      "thumbnail": "images/dummy-img-1.png"
+      "title": "HR Dashboard Responsive",
+      "thumbnail": "images/wehr.png",
+      "url": "https://www.figma.com/community/file/1044488229366944066"
     },
     {
       "_id": "0005",
-      "title": "UI Kits title will be here and there is now description but it's ok!",
-      "thumbnail": "images/dummy-img-1.png"
-    },
-    {
-      "_id": "0006",
-      "title": "UI Kits title will be here and there is now description but it's ok!",
-      "thumbnail": "images/dummy-img-1.png"
+      "title": "Online Food Delivery - Mobile UI Kit",
+      "thumbnail": "images/foodie.png",
+      "url": "https://www.figma.com/community/file/1055098512084767658"
     }
   ]
 }

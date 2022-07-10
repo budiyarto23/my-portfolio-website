@@ -1,6 +1,5 @@
 import React from "react";
 import propTypes from "prop-types";
-import { Link } from "react-router-dom";
 import "./blog.scss";
 
 export default function Blog(props) {
@@ -9,7 +8,12 @@ export default function Blog(props) {
 
   return (
     <div className={`col-sm-12 col-md-6 col-lg-4 col-xl-4 ${props.className}`}>
-      <Link to={props.id} style={{ textDecoration: "none" }}>
+      <a
+        href={props.url}
+        target="_blank"
+        rel="noreferrer"
+        style={{ textDecoration: "none" }}
+      >
         <div className="card-product">
           <div className="card-item-product">
             <div className="embed-responsive">
@@ -27,13 +31,16 @@ export default function Blog(props) {
               </h2>
               <p className="card-text-product">
                 {props.productDescription.length > maxLengthDesc
-                  ? `${props.productDescription.substring(0, maxLengthDesc)} ...`
+                  ? `${props.productDescription.substring(
+                      0,
+                      maxLengthDesc
+                    )} ...`
                   : props.productDescription}
               </p>
             </div>
           </div>
         </div>
-      </Link>
+      </a>
     </div>
   );
 }
@@ -42,7 +49,7 @@ Blog.propTypes = {
   thumbnailImage: propTypes.string,
   productName: propTypes.string,
   productDescription: propTypes.string,
-  link: propTypes.string,
+  url: propTypes.string,
   id: propTypes.string,
   className: propTypes.string,
 };

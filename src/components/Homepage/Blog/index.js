@@ -15,10 +15,8 @@ export default function Blog(props) {
               </p>
             </div>
             <a
-              href="https://www.youtube.com/"
+              href="/blog"
               className="blog-expand"
-              target="_blank"
-              rel="noreferrer"
             >
               See More
             </a>
@@ -27,6 +25,7 @@ export default function Blog(props) {
             {props.data.map((item, index) => {
               return (
                 <BlogCard
+                  url={item.url}
                   className={"mobile-card"}
                   thumbnailImage={item.thumbnail}
                   productName={item.title}

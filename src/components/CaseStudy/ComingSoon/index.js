@@ -7,7 +7,8 @@ import './comingSoon.scss';
 
 export default function ComingSoon() {
   const toHome = useNavigate();
-
+  const goBack = () => toHome(-1);
+ 
   return (
     <div className='container-fluid p-0 comsoon-bg'>
         <div className='d-flex flex-column align-items-center justify-content-center' style={flexBg}>
@@ -15,8 +16,8 @@ export default function ComingSoon() {
             <Button
               className='btn btn-primary'
               style={styles}
-              onClick={ () => toHome('/') }
-            >Go to home</Button>
+              onClick={ goBack }
+            >Go back</Button>
         </div>
     </div>
   )
