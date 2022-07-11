@@ -9,7 +9,8 @@ import Button from "elements/Button";
 import AboutProject from "assets/images/about-project.png";
 import Persona from "assets/images/user-persona.png";
 import Sitemap from "assets/images/sitemap.png";
-
+import Wireframe from "assets/images/wireframe-dive.png";
+import HiFi from "assets/images/hifi-dive.png";
 
 export default function DetailCaseStudy() {
   useEffect(() => {
@@ -19,12 +20,16 @@ export default function DetailCaseStudy() {
   const goBack = useNavigate();
   const goToBack = () => goBack(-1);
 
+
   return (
     <div className="container-fluid p-0">
       <header className="bg-detail-case-study">
         <div className="container based-detail-case-study">
           <div className="frame-btn-back">
-            <Button className="btn btn-outline-light btn-back" onClick={goToBack}>
+            <Button
+              className="btn btn-outline-light btn-back"
+              onClick={goToBack}
+            >
               Back
             </Button>
           </div>
@@ -72,7 +77,11 @@ export default function DetailCaseStudy() {
             </div>
             <div className="col-sm-12 col-md-6 col-lg-6 col-xl-6 margin-each-section">
               <div className="frame-image-case">
-                <img className="image-detail-case" src={AboutProject} alt="trd" />
+                <img
+                  className="image-detail-case"
+                  src={AboutProject}
+                  alt="trd"
+                />
               </div>
             </div>
 
@@ -304,13 +313,11 @@ export default function DetailCaseStudy() {
                       <div className="frame-persona">
                         <img
                           className="content-persona"
-                          src={Sitemap}
-                          alt="persona"
+                          src={Wireframe}
+                          alt="wireframe"
                         />
                       </div>
-                      {/* <p className="text-note">
-                        Click the image to see the detail!
-                      </p> */}
+                      <p className="text-note"></p>
                     </div>
                     <div className="d-flex flex-column">
                       <p className="title-detail-solution">
@@ -322,10 +329,10 @@ export default function DetailCaseStudy() {
                       </p>
                       <div className="frame-persona">
                         <img
-                          className="content-persona"
-                          src={Sitemap}
-                          alt="persona"
-                        />
+                            className="content-persona"
+                            src={HiFi}
+                            alt="hifi"
+                          />
                       </div>
                       {/* <p className="text-note">
                         Click the image to see the detail!

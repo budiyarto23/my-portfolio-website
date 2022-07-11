@@ -14,6 +14,29 @@
     }
   ],
 
+  "designAssets": [
+    {
+      "id": "090",
+      "url": "images/w1.png"
+    },
+    {
+      "id": "091",
+      "url": "images/w2.png"
+    },
+    {
+      "id": "092",
+      "url": "images/w3.png"
+    },
+    {
+      "id": "093",
+      "url": "images/w4.png"
+    },
+    {
+      "id": "094",
+      "url": "images/w5.png"
+    }
+  ],
+
   "blog": [
     {
       "_id": "0001",
