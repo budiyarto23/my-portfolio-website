@@ -82,7 +82,7 @@ export default function Blog() {
                     <li className="skill-list-item">UX/UI Facilitator</li>
                     <li className="skill-list-item">Frontend Developer</li>
                   </ul>
-                  <a className="download-link" href="httpd">
+                  <a className="download-link" href="https://urbancv.com/share-cv/ahmad75/deqSG7" target="_blank" rel="noreferrer">
                     Download Resume
                   </a>
                 </div>
