@@ -28,7 +28,7 @@ export default function index() {
                   </li>
                   <li className="deliverables-item">UX Research report</li>
                   <li className="deliverables-item">
-                    Data synthesis (Empathy map etc)
+                    Data synthesis (empathy map, user persona etc)
                   </li>
                   <li className="deliverables-item">
                     Sitemap, User Flow and Wireframe
@@ -49,7 +49,7 @@ export default function index() {
                 <p className="delieverables-name">Deliverable Includes:</p>
                 <ul className="deliverables-list">
                   <li className="deliverables-item">
-                  Brand Identity (logo, color, typography and etc) 
+                  Brand Identity (logo, color pallete, typography etc) 
                   </li>
                   <li className="deliverables-item">Design System</li>
                   <li className="deliverables-item">
