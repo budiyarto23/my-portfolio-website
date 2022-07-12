@@ -4,7 +4,7 @@ import { useLocation } from "react-router-dom";
 
 import "./navbar.scss";
 
-import Logo from "assets/icons/nav-logo.svg";
+import Logo from "assets/icons/nav-logo.png";
 
 export default function Header() {
   const location = useLocation();
