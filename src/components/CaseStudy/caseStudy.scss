@@ -17,8 +17,12 @@
 }
 
 img.card-img-top {
-    height: 100% !important;
+    height: 100%;
     border-radius: $medium-radius !important;
+}
+
+.img-case-thumb {
+    height: 110% !important;
 }
 
 .based-case-study-container {
@@ -27,7 +31,7 @@ img.card-img-top {
 }
 
 div.card-img-overlay {
-    background: rgba(0, 0, 0, .7) !important;
+    background: rgba(0, 0, 0, .5) !important;
     border: $border !important;
     padding: 0px !important;
     border-radius: $medium-radius !important;

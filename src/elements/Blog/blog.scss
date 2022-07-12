@@ -37,6 +37,7 @@
   }
 
   .card-text-product {
+    font-family: $roboto;
     font-style: normal;
     font-weight: $reguler;
     font-size: $medium-desc-desktop;
@@ -75,6 +76,7 @@
     }
 
     .card-text-product {
+      font-family: $roboto;
       font-size: $medium-desc-mobile;
       line-height: 140%;
     }

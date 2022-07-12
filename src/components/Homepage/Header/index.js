@@ -1,18 +1,16 @@
 import React from "react";
-// import { useNavigate } from "react-router-dom";
 
 import "./header.scss";
 
-import Email from "assets/icons/email.svg";
-import LinkedIn from "assets/icons/linkedin.svg";
-import Figma from "assets/icons/figma.svg";
-import Dribbble from "assets/icons/dribbble.svg";
-import Upwork from "assets/icons/upwork.svg";
+import Email from "assets/icons/email.png";
+import LinkedIn from "assets/icons/linkedin.png";
+import Figma from "assets/icons/figma.png";
+import Dribbble from "assets/icons/dribbble.png";
+import Upwork from "assets/icons/upwork.png";
 
 import Button from "elements/Button";
 
 export default function Header() {
-  // const navigate = useNavigate();
 
   return (
     <div className="container header-position">
@@ -49,7 +47,7 @@ export default function Header() {
               className="socmed-position"
               href="mailto:ahmadbudiyarto@gmail.com"
             >
-              <img src={Email} alt="email-icon" />
+              <img className="socmed-icon" src={Email} alt="email-icon" />
             </a>
             <a
               className="socmed-position"
@@ -57,7 +55,7 @@ export default function Header() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={LinkedIn} alt="email-icon" />
+              <img className="socmed-icon" src={LinkedIn} alt="email-icon" />
             </a>
             <a
               className="socmed-position"
@@ -65,7 +63,7 @@ export default function Header() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={Figma} alt="email-icon" />
+              <img className="socmed-icon" src={Figma} alt="email-icon" />
             </a>
             <a
               className="socmed-position"
@@ -73,7 +71,7 @@ export default function Header() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={Dribbble} alt="email-icon" />
+              <img className="socmed-icon" src={Dribbble} alt="email-icon" />
             </a>
             <a
               className="socmed-position"
@@ -81,7 +79,7 @@ export default function Header() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={Upwork} alt="email-icon" />
+              <img className="socmed-icon" src={Upwork} alt="email-icon" />
             </a>
           </div>
         </div>

@@ -5,7 +5,8 @@ import "./case.scss";
 
 import Button from "elements/Button";
 
-import CaseImg from "assets/images/about-project.png";
+import ThumbnailDiving from "assets/images/case-thumbnail-1.png";
+import ThumbnailAfs from "assets/images/case-thumbnail-2.png";
 
 export default function Case() {
   const navigate = useNavigate();
@@ -25,7 +26,7 @@ export default function Case() {
               <div className="card img-fluid main-card-bg-1">
                 <img
                   className="card-img-top img-for-home"
-                  src={CaseImg}
+                  src={ThumbnailDiving}
                   alt="ruei"
                 />
                 <div className="card-img-overlay overlay-for-home d-flex flex-column justify-content-center">
@@ -54,7 +55,7 @@ export default function Case() {
               <div className="card img-fluid main-card-bg-1">
                 <img
                   className="card-img-top img-for-home"
-                  src={CaseImg}
+                  src={ThumbnailAfs}
                   alt="ruei"
                 />
                 <div className="card-img-overlay overlay-for-home d-flex flex-column justify-content-center">

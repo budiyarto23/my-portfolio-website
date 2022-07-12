@@ -7,7 +7,8 @@ import Navbar from "components/Homepage/Navbar";
 import Button from "elements/Button";
 import Footer from "components/Homepage/Footer";
 
-import CaseThumbnail from "assets/images/about-project.png";
+import ThumbnailDiving from "assets/images/case-thumbnail-1.png";
+import ThumbnailAfs from "assets/images/case-thumbnail-2.png";
 
 export default function CaseStudy() {
   useEffect(() => {
@@ -32,7 +33,7 @@ export default function CaseStudy() {
             </div>
 
             <div className="card img-fluid main-card-bg">
-              <img className="card-img-top" src={CaseThumbnail} alt="ruei" />
+              <img className="card-img-top" src={ThumbnailDiving} alt="ruei" />
               <div className="card-img-overlay d-flex flex-column justify-content-center">
                 <h4 className="title-case mx-auto">Microsite Diving Indonesia</h4>
                 <p className="subtitle-case mx-auto">
@@ -53,7 +54,7 @@ export default function CaseStudy() {
             </div>
 
             <div className="card img-fluid main-card-bg">
-              <img className="card-img-top" src={CaseThumbnail} alt="ruei" />
+              <img className="card-img-top img-case-thumb" src={ThumbnailAfs} alt="ruei" />
               <div className="card-img-overlay d-flex flex-column justify-content-center">
                 <h4 className="title-case mx-auto">Online Registration System</h4>
                 <p className="subtitle-case mx-auto">

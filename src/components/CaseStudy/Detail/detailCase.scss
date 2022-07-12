@@ -40,7 +40,7 @@
 
 .description-case-study {
     font-family: $roboto;
-    font-weight: $reguler;
+    font-weight: 300 !important;
     font-size: $large-desc-desktop;
     line-height: 150%;
     color: $subtitle-light;
@@ -49,7 +49,7 @@
 
 .description-case-study-single {
     font-family: $roboto;
-    font-weight: $reguler;
+    font-weight: 300 !important;
     font-size: $large-desc-desktop;
     line-height: 150%;
     color: $subtitle-light;
@@ -111,7 +111,7 @@
     font-family: $roboto;
     font-size: $medium-desc-desktop;
     font-weight: $reguler;
-    line-height: 150%;
+    line-height: 160%;
     color: $subtitle-light;
     max-width: 650px !important;
 }
@@ -231,7 +231,7 @@
 
     .description-case-study {
         font-size: $medium-desc-desktop;
-        line-height: 140%;
+        line-height: 150%;
         max-width: 500px;
     }
 

@@ -54,14 +54,9 @@
 // scss-docs-end import-stack
 
 // font family & size
-$lexend: "Lexend",
-Helvetica,
-Verdana,
-sans-serif;
-$roboto: "Roboto",
-Helvetica,
-Verdana,
-sans-serif;
+$lexend: "Lexend", sans-serif;
+$roboto: "Roboto", Helvetica, Verdana, sans-serif;
+// $roboto: "Poppins", sans-serif;
 
 // body
 body {

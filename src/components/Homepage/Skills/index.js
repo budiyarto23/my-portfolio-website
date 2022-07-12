@@ -28,7 +28,7 @@ export default function index() {
                   </li>
                   <li className="deliverables-item">UX Research report</li>
                   <li className="deliverables-item">
-                    Data synthesis (Empathy map, user persona etc)
+                    Data synthesis (Empathy map etc)
                   </li>
                   <li className="deliverables-item">
                     Sitemap, User Flow and Wireframe
