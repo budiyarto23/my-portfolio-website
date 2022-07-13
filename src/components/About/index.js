@@ -18,8 +18,7 @@ export default function Blog() {
         <div className="container based-about-container">
           <div className="title-container d-flex flex-row justify-content-center">
             <p className="title-about">
-              Hi, I'm Budiyarto, a passionate Product Designer who loves to
-              provide solutions to user experience problems
+            Hi, I'm Budiyarto, a Product Designer who loves providing solutions to user experience problems.
             </p>
           </div>
           <div className="container about-container">
@@ -68,13 +67,17 @@ export default function Blog() {
               <div className="col-sm-12 col-md-12 col-lg-4 col-xl-4">
                 <div className="first-container">
                   <p className="info-title">Contact</p>
-                  <p className="info-subtitle">Contact me on</p>
+                  <p className="info-subtitle">Contact me at</p>
                   <ul className="skill-list">
                     <li className="skill-list-item">
-                      ahmadbudiyarto@gmail.com
+                      <a className="skill-list-item-a" href="mailto:ahmadbudiyarto@gmail.com">ahmadbudiyarto@gmail</a>
                     </li>
-                    <li className="skill-list-item">LinkedIn</li>
-                    <li className="skill-list-item">Upwork</li>
+                    <li className="skill-list-item">
+                      <a className="skill-list-item-a" href="https://www.linkedin.com/in/ahmad-budiyarto" target="_blank" rel="noreferrer">LinkedIn</a>
+                    </li>
+                    <li className="skill-list-item">
+                      <a className="skill-list-item-a" href="https://www.upwork.com/freelancers/~01b04ef28aee445c94" target="_blank" rel="noreferrer">Upwork</a>
+                    </li>
                   </ul>
                   <p className="info-subtitle">Experience</p>
                   <ul className="skill-list">

@@ -282,9 +282,6 @@ export default function DetailCaseStudy() {
                           alt="persona"
                         />
                       </div>
-                      {/* <p className="text-note">
-                        Click the image to see the detail!
-                      </p> */}
                     </div>
                   </div>
                 </div>
@@ -334,9 +331,6 @@ export default function DetailCaseStudy() {
                             alt="hifi"
                           />
                       </div>
-                      {/* <p className="text-note">
-                        Click the image to see the detail!
-                      </p> */}
                     </div>
                   </div>
                 </div>

@@ -54,6 +54,10 @@
     font-size: $medium-desc-desktop;
     line-height: 160%;
     color: $subtitle-light;
+    a {
+        text-decoration: none !important;
+        color: $subtitle-light !important;
+    }
 
 }
 

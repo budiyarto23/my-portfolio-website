@@ -26,7 +26,7 @@ export default function AboutMe() {
                 (window.location = "mailto:ahmadbudiyarto@gmail.com") }
               style={{ paddingLeft: 30, paddingRight: 30 }}
             >
-              Contact me by email
+              Contact by email
             </Button>
           </div>
         </div>
