@@ -50,7 +50,7 @@ export default function DetailCaseStudy() {
             <div className="col-sm-12 col-md-6 col-lg-4 col-xl-4 layout-mobile">
               <p className="title-detail-case-study">Project Duration</p>
               <p className="description-case-study">
-                Start from March 8, 2021 - April 16, 2021 (6 weeks)
+                Start from March 8, 2021 - April 9, 2021 (5 weeks)
               </p>
             </div>
             <div className="col-sm-12 col-md-12 col-lg-4 col-xl-4 layout-tablet layout-mobile">
@@ -61,6 +61,10 @@ export default function DetailCaseStudy() {
                 wireframing, prototyping, usability testing and Stakeholder
                 presentations.
               </p>
+            </div>
+
+            <div className="col-sm-12 col-md-12 col-lg-12 col-xl-12 margin-each-section">
+              <div className="case-study-divider"></div>
             </div>
 
             <div className="col-sm-12 col-md-6 col-lg-6 col-xl-6 margin-each-section">
@@ -83,6 +87,10 @@ export default function DetailCaseStudy() {
                   alt="trd"
                 />
               </div>
+            </div>
+
+            <div className="col-sm-12 col-md-12 col-lg-12 col-xl-12 margin-each-section">
+              <div className="case-study-divider"></div>
             </div>
 
             <div className="col-sm-12 col-md-6 col-lg-6 col-xl-6 margin-each-section">

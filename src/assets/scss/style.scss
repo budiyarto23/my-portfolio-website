@@ -54,8 +54,12 @@
 // scss-docs-end import-stack
 
 // font family & size
-$lexend: "Lexend", sans-serif;
-$roboto: "Roboto", Helvetica, Verdana, sans-serif;
+$lexend: "Lexend",
+sans-serif;
+$roboto: "Roboto",
+Helvetica,
+Verdana,
+sans-serif;
 // $roboto: "Poppins", sans-serif;
 
 // body
@@ -91,7 +95,7 @@ $bold: 700;
 
 // background, stroke & radius
 $large-radius: 8px;
-$medium-radius: 4px;
+$medium-radius: 10px;
 $small-radius: 2px;
 
 $container-background: rgba(255, 255, 255, 0.05);
