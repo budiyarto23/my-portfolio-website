@@ -6,7 +6,7 @@ import Email from "assets/icons/email.png";
 import LinkedIn from "assets/icons/linkedin.png";
 import Figma from "assets/icons/figma.png";
 import Dribbble from "assets/icons/dribbble.png";
-import Upwork from "assets/icons/upwork.png";
+import Github from "assets/icons/github.png";
 
 import Button from "elements/Button";
 
@@ -72,13 +72,21 @@ export default function Header() {
             >
               <img className="socmed-icon" src={Dribbble} alt="email-icon" />
             </a>
-            <a
+            {/* <a
               className="socmed-position"
               href="https://www.upwork.com/freelancers/~01b04ef28aee445c94"
               target="_blank"
               rel="noopener noreferrer"
             >
               <img className="socmed-icon" src={Upwork} alt="email-icon" />
+            </a> */}
+            <a
+              className="socmed-position"
+              href="https://www.github.com/budiyarto23"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img className="socmed-icon" src={Github} alt="email-icon" />
             </a>
           </div>
         </div>
