@@ -5,8 +5,9 @@ import Homepage from 'components/Homepage/index';
 import CaseStudy from 'components/CaseStudy';
 import Blog from 'components/Blog';
 import About from 'components/About';
-import DetailCaseStudy from 'components/CaseStudy/Detail';
-import ComingStudy from 'components/CaseStudy/ComingSoon';
+import DetailStudyDiving from 'components/CaseStudy/DetailDiving';
+import DetailStudyOR from 'components/CaseStudy/DetailOR';
+// import ComingStudy from 'components/CaseStudy/ComingSoon';
 
 
 function App() {
@@ -17,8 +18,9 @@ function App() {
         <Route path='/case-study' element={<CaseStudy />} />
         <Route path='/blog' element={<Blog />} />
         <Route path='/about' element={<About />} />
-        <Route path='/detail-case-study' element={<DetailCaseStudy />} />
-        <Route path='/coming-case-study' element={<ComingStudy />} />
+        <Route path='/detail-case-study' element={<DetailStudyDiving />} />
+        <Route path='/detail-case-study-or' element={<DetailStudyOR />} />
+        {/* <Route path='/coming-case-study' element={<ComingStudy />} /> */}
       </Routes>
     </Router>
   );

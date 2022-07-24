@@ -71,7 +71,7 @@ export default function Case() {
                     <Button
                       type="button"
                       className="btn btn-outline-light btn-outline-custom"
-                      onClick={() => navigate("/coming-case-study")}
+                      onClick={() => navigate("/detail-case-study-or")}
                       style={{ paddingLeft: 20, paddingRight: 20 }}
                     >
                       See detail
