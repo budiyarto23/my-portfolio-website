@@ -103,7 +103,7 @@
     },
     {
       "_id": "0004",
-      "title": "HR Dashboard Responsive",
+      "title": "HR Dashboard Responsive - Dashboard UI Kit",
       "thumbnail": "images/wehr.png",
       "url": "https://www.figma.com/community/file/1044488229366944066"
     },
@@ -112,6 +112,12 @@
       "title": "Online Food Delivery - Mobile UI Kit",
       "thumbnail": "images/foodie.png",
       "url": "https://www.figma.com/community/file/1055098512084767658"
+    },
+    {
+      "_id": "0006",
+      "title": "Smart Border Control - Dashboard UI Kit",
+      "thumbnail": "images/smart-border-control.png",
+      "url": "https://www.figma.com/community/file/1129745296279386842"
     }
   ]
 }
