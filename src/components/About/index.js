@@ -18,7 +18,7 @@ export default function Blog() {
         <div className="container based-about-container">
           <div className="title-container d-flex flex-row justify-content-center">
             <p className="title-about">
-            Hi, I'm Budiyarto, a Product Designer who loves providing solutions to user experience problems.
+            Hi, I'm Ahmad Budiyarto!
             </p>
           </div>
           <div className="container about-container">
@@ -27,17 +27,11 @@ export default function Blog() {
                 <div className="first-container">
                   <p className="info-title">About me</p>
                   <p className="info-description">
-                    I am dedicated to assisting companies in creating the best
-                    solutions for their digital products with a design thinking
-                    approach. <br />
-                    <br /> I have spent the last 4 years working in various
-                    areas of digital design, from Front-end Development, UI
-                    Design, UX/UI Design, UX/UI design facilitator, and Product
-                    Design. <br />
-                    <br /> Currently, my role is UX/UI design facilitator at
-                    Binar Academy. These days my time is spent facilitating
-                    students, researching, designing, writing UX/UI articles,
-                    and coding. I also help designers start their careers.
+                  I am dedicated to assisting companies in creating the best solutions for their digital products with a design-thinking approach. <br />
+                  <br />
+                  I have spent the last 4 years working in various areas of digital design, from Front-end Dev, UX/UI Design, UX/UI Design Mentor, and Product Design.
+                    <br />
+                    <br /> Currently, my role is Product Designer at Akar Inti Teknologi. These days my time is spent researching, designing, writing UX/UI articles, and coding.
                   </p>
                 </div>
               </div>
@@ -52,12 +46,12 @@ export default function Blog() {
                     <li className="skill-list-item">
                       Persuasive Design Strategy
                     </li>
-                    <li className="skill-list-item">Testing</li>
+                    <li className="skill-list-item">Usability Testing</li>
                   </ul>
                   <p className="info-subtitle">Web Development</p>
                   <ul className="skill-list">
                     <li className="skill-list-item">JavaScript</li>
-                    <li className="skill-list-item">TypeScript</li>
+                    {/* <li className="skill-list-item">TypeScript</li> */}
                     <li className="skill-list-item">ReactJS</li>
                     <li className="skill-list-item">CSS</li>
                     <li className="skill-list-item">HTML</li>

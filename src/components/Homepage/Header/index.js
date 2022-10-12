@@ -22,7 +22,7 @@ export default function Header() {
             who loves to craft a good story.
           </p>
           <p className="large-description mb-5">
-          I do website and mobile design. I am currently working at Binar Academy and am open to new opportunities.
+          I do website and mobile design. I am currently working at Akar Inti Teknologi based in Jakarta - Indonesia.
           </p>
           <div className="frame-cta">
             <Button
